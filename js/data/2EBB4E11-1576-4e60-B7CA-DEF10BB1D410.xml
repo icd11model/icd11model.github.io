@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("1.3:1", "", "ICD11 Linearization Layer", "EARoot/EA1/EA3/EA81.htm", "175.png", "75", "0", "", "Logical diagram0","{78BB60A0-0566-4fcb-85DD-65603D19B889}");
+tocTab[tocTab.length] = new Array("1.3:3", "", "ICD11_Linearization_Entity", "EARoot/EA1/EA3/EA85.htm", "5.png", "438", "0", "", "Class0","{DF4AFB33-9F18-4d7a-AD62-3502AB67739A}");
+tocTab[tocTab.length] = new Array("1.3:4", "", "Linearization_Logic", "EARoot/EA1/EA3/EA86.htm", "5.png", "512", "0", "", "Class0","{E50DC645-5697-4c41-BA1E-BDC2E0293372}");
+tocTab[tocTab.length] = new Array("1.3:5", "", "Linearization_View", "EARoot/EA1/EA3/EA87.htm", "5.png", "520", "0", "", "Class0","{66375A95-5BF9-4cc8-9C76-980D20152414}");
+tocTab[tocTab.length] = new Array("1.3:2", "", "Linearization Logic", "EARoot/EA1/EA3/EA83.htm", "175.png", "80", "512", "", "Logical diagram0","{28FDEDB3-5F5B-4847-80C0-DE305902CAA0}");
+tocTab[tocTab.length] = new Array("1.3:6", "", "Plausibility_Rule", "EARoot/EA1/EA3/EA88.htm", "5.png", "534", "438", "", "Class0","{BF77CF78-7AFE-4fd8-B7FA-816E56C8C875}");
+tocTab[tocTab.length] = new Array("1.3:7", "", "Code", "EARoot/EA1/EA3/EA89.htm", "5.png", "439", "438", "", "Class0","{4FFCBCDC-6A0A-426a-A342-2CD559F80F5F}");
+tocTab[tocTab.length] = new Array("1.3:8", "", "Exclusion_Term", "EARoot/EA1/EA3/EA90.htm", "5.png", "441", "438", "", "Class0","{24F5BF4C-3F43-4699-86F4-99EFA8C9ED67}");
+tocTab[tocTab.length] = new Array("1.3:9", "", "Term", "EARoot/EA1/EA3/EA91.htm", "5.png", "440", "438", "", "Class0","{9EF1D887-EB8C-4b98-98C4-79D8F6F79F5C}");
+tocTab[tocTab.length] = new Array("1.3:10", "", "Synonym", "EARoot/EA1/EA3/EA92.htm", "5.png", "443", "438", "", "Class0","{7BD1341F-38DF-4d91-A3CC-8169320249C6}");
+tocTab[tocTab.length] = new Array("1.3:13", "", "Morbidity_View", "EARoot/EA1/EA3/EA95.htm", "5.png", "522", "520", "", "Class0","{79678966-9C34-43f3-BE98-A84BEF8823B2}");
+tocTab[tocTab.length] = new Array("1.3:14", "", "Mortality_View", "EARoot/EA1/EA3/EA96.htm", "5.png", "521", "520", "", "Class0","{D4F19971-7466-4f02-9554-2DFC9930EA57}");
+tocTab[tocTab.length] = new Array("1.3:15", "", "Primary_Care_View", "EARoot/EA1/EA3/EA97.htm", "5.png", "523", "520", "", "Class0","{DC642774-092B-4ab1-8072-788229AEC52D}");
+tocTab[tocTab.length] = new Array("1.3:11", "", "Exclusion_Term_Type1", "EARoot/EA1/EA3/EA93.htm", "5.png", "452", "441", "", "Class0","{15A3E911-33D8-46d6-BDDA-B7808CB147F7}");
+tocTab[tocTab.length] = new Array("1.3:12", "", "Exclusion_Term_Type2", "EARoot/EA1/EA3/EA94.htm", "5.png", "453", "441", "", "Class0","{16CD15A2-A140-4e09-BA62-62EEC9D8FE32}");

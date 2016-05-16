@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<br/>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt">Frankly, this is the least developed of all the diagrams in our new three layer model. </p>
+<p>
+<b>Simplistically, it is supposed to be a catalog or dictionary of terminology reference </p>
+<p>
+information, such as elements of SNOMED, elements of Hugo, ICF, or other granular </p>
+<p>
+terminologies.</b> It is in this domain that traditional ontological models (such as the assertion that </p>
+<p>
+a myocardial infarction is death of the myocyte due to ischemia) would exist. It is from this </p>
+<p>
+source that all other layers derive their ontological basis. That being said, I think the model in its </p>
+<p>
+present form is grossly underspecified and somewhat simplistic. I think if we have </p>
+<p>
+improvements, they would occur mostly in this layer. Bedirhan has made very clear that ICD 11 </p>
+<p>
+should have this layer independent of other ontologies, and it should not be ceded entirely to </p>
+<p>
+terminology such as SNOMED. However, it would be highly desirable that elements in this </p>
+<p>
+layer should correspond closely if not exactly to elements in SNOMED.</p>
+</span></font></p>
+<p><p>
+<br/>
+</p>
+</p>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt"><b>Note by Alan Rector:</p>
+</b></span></font></p>
+<p><p>
+<br/>
+</p>
+</p>
+<p><p>
+<font face="Times" size="3"><span style="font-size:12pt"><b>The ontology layer is serving two functions:</p>
+</b></span></font></p>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">a) As a controlled vocabulary for the category layer.</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">b) As a the source of necessary conditions that define entities.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">The principle should be that each piece of information should reside in exactly one place,&#160;</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">so that for maintenance it can be changed in exactly one place.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">This means that for those entities that do have a representation in the Ontology level, the</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">the representation to them at other levels should be tightly tied to the ontology level.&#160;</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">Eg. &#160;If there is &quot;Stomach cancer&quot; in the ontology level, then &quot;Stomach cancer&quot; - or whatever</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">corresponding entity in the Category and Linearization levels should reference it and use its</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">presentation object and mappings by default. If they need to over-ride them, they can, but to 
+take</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">a trivial example, I should have to translate &quot;Stomach cancer&quot; to &quot;Cancer de L'estomach&quot; (or 
+whatever is the correct French) in only one place, and that would&#160;normally be the Presentation 
+object on &quot;Stomach Cancer&quot; in the Ontology layer. &#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt"><b>Ontological definitions:</b></span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">If we look at SNOMED, we will find &quot;Stomach Cancer&quot; as Carcinoma qualified by site 
+Stomach. [1]&#160;</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">That's at least a basic definition in formal terms. &#160; Stomach cancer with site Brain doesn't make 
+sense.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">These aren't diagnostic criteria, they are what something is, or at least a part of the definition.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">Actually, of course, this is an inadequate definition. &#160;Stomach cancer is actually a carcinoma 
+arising from the mucosa of the stomach. &#160;Primary stomach cancer is also sited in the stomach. 
+&#160;Metastatic stomach cancer can be sited anywhere. &#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">From the definition of stomach cancer we can determine both that it is a disease of the Stomach 
+and hence of the GI Tract. &#160;From the fact that it is a carcinoma we can identify that it is a solid 
+tumour, and from this that it is a solid tumour of the GI tract - if anybody is interested which 
+from some recent statistics I've seen they might be.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">From this we can also determine with certainty, if it becomes necessary to differentiate them, 
+that&#160;</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">Carcinoma of the Antrim of the stomach is a kind of Carcinoma of the Stomach.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">Not all diseases have such clearcut defiitions. &#160;Myocardial Infarct is a bit fuzzy. Rheumatoid 
+Arthritis or Diabetes Type I probably only have very partial definitions, perhaps only that they 
+are a &quot;Rhematoid disease&quot; and a &quot;Metabolic disease&quot; respectively.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">However, these things are all things that are true of ALL Stomach cancers, Gastric Cancers, 
+Rheumatoid Arthritis.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt"><b>ONTOLOGY LAYER, DLS AND BINDING TO SNOMED AND MAPPINGS</b></span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">If we say that the ontology level should be an &quot;ontology&quot; in the DL sense, then</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">several things follow.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">i)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	The hierarchy is based on necessary subsumption, i.e. all members of a subclass are 
+necessarily members of the superclass.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">ii)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	I am not sure how easily OWL/DLs fits into the Lexgrid model or whether we need an 
+indirection mechanism.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">iii)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	I would be in favour of &quot;borrowing&quot; snomed defintions but being able</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	a) to enhance them as we require - hoping that SNOMED will accept the enhancements 
+where they</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	&#160;&#160; &#160;are in SNOMED's scope.</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;	b) Explicitly to reject them where they present problems.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">To say that the ontology layer follows a DL does not mean that the DL section has to be built 
+first.</span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">It is probably more sensible to derive both from from user-oriented model adapted to the Wiki.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">Where we do use an external ontology, we should of couse retain the reference to it, including 
+versioning information, and will have to have a policy on mutual update.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">For SNOMEDI would hope that &#160;our definitions would always be strictly richer than theirs - i.e. 
+supersets - unless we had submitted a request for change or indication of probable error. &#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">For things like HUGO, the most that we can probably take are the list of identifiers and the 
+hierarchy. &#160;(i don't know whether even the hierarchy is reliable formally) In that case we will 
+need to be able to cope with minimal information and enrich later.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><br/></div>
+<div align="left"></div>
+</body>
+</html>

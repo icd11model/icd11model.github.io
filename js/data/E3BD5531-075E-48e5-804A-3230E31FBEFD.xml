@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("1:1", "", "ICD11 Information Model", "EARoot/EA1/EA2.htm", "175.png", "73", "0", "", "Logical diagram0","{205259E1-C319-4cb5-9B43-F0CA304B1A72}");
+tocTab[tocTab.length] = new Array("1:2", "", "ICD11_Entity", "EARoot/EA1/EA8.htm", "5.png", "502", "0", "", "Class0","{0137C5EF-EACD-48eb-BA30-E291AAE82567}");
+tocTab[tocTab.length] = new Array("1:3", "", "commonProperty", "EARoot/EA1/EA12.htm", "5.png", "503", "502", "", "Class0","{54C20ED6-DF55-4665-87EC-825B10A45D67}");
+tocTab[tocTab.length] = new Array("1:4", "", "comment", "EARoot/EA1/EA13.htm", "5.png", "434", "502", "", "Class0","{CE25C137-0E46-4ada-B59A-065894CDE6F0}");
+tocTab[tocTab.length] = new Array("1:5", "", "definition", "EARoot/EA1/EA14.htm", "5.png", "433", "502", "", "Class0","{3CFB23B6-DCED-404e-A39D-3DC2094A8EE0}");
+tocTab[tocTab.length] = new Array("1:6", "", "presentation", "EARoot/EA1/EA15.htm", "5.png", "432", "502", "", "Class0","{281288E1-655C-4e85-98AE-407BE6A8DE64}");
+tocTab[tocTab.length] = new Array("1.1", "1", "«model» ICD11 Ontological Layer", "EARoot/EA1/EA9.htm", "4.png", "", "", "{8F148653-01C1-4f57-BC1C-F64BFBEC674E}", "Package");
+tocTab[tocTab.length] = new Array("1.2", "1", "«model» ICD11 Category Layer", "EARoot/EA1/EA10.htm", "4.png", "", "", "{E6A18FEC-D414-4ee5-9C0B-A08852F654F0}", "Package");
+tocTab[tocTab.length] = new Array("1.3", "1", "«model» ICD11 Linearization Layer", "EARoot/EA1/EA11.htm", "4.png", "", "", "{2EBB4E11-1576-4e60-B7CA-DEF10BB1D410}", "Package");

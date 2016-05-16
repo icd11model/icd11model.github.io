@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<font face="Times New Roman" size="3"><span style="font-size:12pt">As I said, this is what I'm now calling the Category Layer, as evident by the ICD 11 category in 
+the center. This I see as the core of the classification, against which the subtype-supertype 
+hierarchy would be built. The related classes of Presentation, Comment, and Definition, are 
+directly derived from the LexGrid model, and accommodate virtually all of the lexical, natural 
+language (such as French or Japanese) manifestations. <b>What is strikingly new and different 
+is that the historical clinical characteristic, which is at the bottom of that particular 
+model, is now linked to a Category exclusively through Clinical Criteria. This means, 
+that if a clinical characteristic (such as anatomic site, genomic underpinning, or related 
+characteristic) is not manifest in a clinical criteria, it has no role in the model. </b>This is 
+made explicit by the cardinality. Closely related to this are the Sanctioning Rules, which we 
+chose to attach to clinical criteria. This we borrowed directly from Stephanie and Can's 
+previous representations. <b>I think this is the core of what I see ICD 11 being, with few 
+restrictions on the subtype-supertype hierarchy (meaning that multiple inheritance is 
+permitted in this layer). Specifically, these not need to be mutually exclusive at this 
+phase of ICD 11 manifestation. </b>Notions such as mutually exclusive and for that matter 
+exhaustive can and should occur at the serialization layer.</span></font></p>
+<p><p>
+<br/>
+</p>
+</p>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt"><b>Note by Alan Rector:</p>
+</b></span></font></p>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt"><b>The role of the ICD11 Category Layer include:</p>
+</b></span></font></p>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt">* To provide a systematised catalogue of of diagnostic criteria (and perhaps associations) fit for </p>
+<p>
+computation. </p>
+</span></font></p>
+<p><p>
+<font face="Times New Roman" size="3"><span style="font-size:12pt">* To provide a rich cross linked intuitive structure for browsing that catalogue fit for human </p>
+<p>
+users to use to navigate and search the information. </p>
+</span></font></p>
+<p><p>
+<br/></p>
+</p>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt"><b>THESAURUS / BROWSING / SEARCH &#160;/ LAYER</b> - a fourth layer? / A replacement for 
+the Index.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">I understand completely why Chris wanted to allow broader-than/narrower than rather than 
+pure subclass links in the Category layer. &#160;They are much easier for people to use for browsing 
+and searching for material than a strict class hierarchy. &#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">I think the problem is that we want the Category layer to do too many things. &#160;For some of them 
+we need a &quot;proper&quot; classification hierarchy. &#160;For others we need a broader-than/narrower-than 
+thesaurus, probably with lots of bells and whistles for helping people search it efficiently.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">This is how I would replace the existing Index. &#160;My preference would be to do this with SKOS, 
+as it provides a well thought out and standardised vocabulary for Thesauri, but there are others. 
+&#160; We have a student working on OWL&lt;--&gt; SKOS projections. &#160;We have a very similar 
+structure in one of our commercial projects. &#160;If we do this, we can be entirely clear that the 
+purpose of this tool is for human browsing and searching. &#160;The entities should all come from the 
+other hierarchies, but they could be supplemented with Presentation_entities arbitrarily. &#160; Ideally, 
+there would be a defined projection, e.g. that broader-than was the union of kind-of, part-of 
+and causes (so that Diabetes is broader than Diabetic Nephropathy)&#160;</span></font></div>
+<div align="left"></div>
+</body>
+</html>

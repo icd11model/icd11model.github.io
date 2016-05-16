@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("1.1:1", "", "ICD11 Ontological Layer", "EARoot/EA1/EA1/EA16.htm", "175.png", "76", "0", "", "Logical diagram0","{4CE7103F-50E8-40ec-9891-65C75E74053A}");
+tocTab[tocTab.length] = new Array("1.1:2", "", "ConceptDescriptor", "EARoot/EA1/EA1/EA22.htm", "5.png", "437", "0", "", "Class0","{2563F212-170C-4dca-9E97-0D6FE6DE3549}");
+tocTab[tocTab.length] = new Array("1.1:3", "", "CD_ICD11_Category", "EARoot/EA1/EA1/EA23.htm", "5.png", "447", "437", "", "Class0","{BAA4BB92-C269-42de-BF9F-CA24BE430D77}");
+tocTab[tocTab.length] = new Array("1.1:4", "", "CD_Anatomical_Site", "EARoot/EA1/EA1/EA24.htm", "5.png", "445", "437", "", "Class0","{B49590C2-C827-4419-8FCF-FCABF40EF739}");
+tocTab[tocTab.length] = new Array("1.1:5", "", "CD_Causal_Agent", "EARoot/EA1/EA1/EA25.htm", "5.png", "458", "437", "", "Class0","{73737090-2647-4b9f-9159-C54BE357FE55}");
+tocTab[tocTab.length] = new Array("1.1:6", "", "CD_Diagnostic_Finding", "EARoot/EA1/EA1/EA26.htm", "5.png", "456", "437", "", "Class0","{416FA498-63B6-458a-8B6D-8B543AE7A11E}");
+tocTab[tocTab.length] = new Array("1.1:7", "", "CD_Diagnostic_Rule", "EARoot/EA1/EA1/EA27.htm", "5.png", "464", "437", "", "Class0","{6617013D-D323-442e-946E-440481DFBE9D}");
+tocTab[tocTab.length] = new Array("1.1:8", "", "CD_Functional_Impact", "EARoot/EA1/EA1/EA28.htm", "5.png", "446", "437", "", "Class0","{43469D88-7610-4093-98F8-F9278756F2EA}");
+tocTab[tocTab.length] = new Array("1.1:9", "", "CD_Genomic_Characteristic", "EARoot/EA1/EA1/EA29.htm", "5.png", "459", "437", "", "Class0","{ECABDF2A-9661-41c1-B8EB-12E22B8285D4}");
+tocTab[tocTab.length] = new Array("1.1:10", "", "CD_Mechanism", "EARoot/EA1/EA1/EA30.htm", "5.png", "460", "437", "", "Class0","{19283CF0-3FEB-4501-B9ED-B1E3279ED1AC}");
+tocTab[tocTab.length] = new Array("1.1:11", "", "CD_Pathophysiology", "EARoot/EA1/EA1/EA31.htm", "5.png", "455", "437", "", "Class0","{019BD21B-8932-4358-AB18-68477BC67DE5}");
+tocTab[tocTab.length] = new Array("1.1:12", "", "CD_Severity_And_Or_Extent", "EARoot/EA1/EA1/EA32.htm", "5.png", "463", "437", "", "Class0","{67B849BE-4D7C-4c92-924C-4465B3C318C3}");
+tocTab[tocTab.length] = new Array("1.1:13", "", "CD_Symptom_and_Sign", "EARoot/EA1/EA1/EA33.htm", "5.png", "457", "437", "", "Class0","{82FC2884-93D5-48a0-869F-024265D588A7}");
+tocTab[tocTab.length] = new Array("1.1:14", "", "CD_Temporal_Relation", "EARoot/EA1/EA1/EA34.htm", "5.png", "461", "437", "", "Class0","{74A24FA9-F25A-4262-BA1E-EC5CEF75CB47}");
+tocTab[tocTab.length] = new Array("1.1:15", "", "CD_Treatment", "EARoot/EA1/EA1/EA35.htm", "5.png", "462", "437", "", "Class0","{B10F2AE3-CC20-4804-B467-299D75C19629}");

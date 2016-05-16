@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<br/>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">In top level of the model, there are three layers: </span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">1) <b>ICD11 Ontological Layer</b> (analogous to Dictionary with role of definition) </span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">2) <b>ICD11 Category Layer</b> (analogous to categorization and knowledge base) and </span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">3)<b> ICD11 Linearization Layer</b> (analogous to different serialization views for publications). </span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">In each layer, there is a corresponding core entity. We use &quot;<b>ConceptDescriptor</b>&quot; in ICD11 
+Ontological Layer, &quot;<b>ICD11_Category</b>&quot; in ICD11 Category Layer, &quot;<b>ICD11 Linerization 
+Entity</b>&quot; in ICD11 Linearization Layer. The entity in each layer shares a common superclass 
+&quot;<b>ICD11_Entity</b>&quot;.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">The relationships among the entities in three layers are described as: </span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ICD11_Category has exactly one definitions of type ConceptDescriptor.</span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ConceptDescriptor has exactly one defined category of type ICD11_Category. </span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ICD11_Category has one or more views of type ICD11_Linearization_Entry.</span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ICD11_Linearization_Entity has exactly one view_source of type ICD11_Category.</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ICD11_Linearization_Entity has exactly one definition of type ConceptDescriptor.</span></font></div>
+<div align="left"><font face="Times New Roman" size="3"><span style="font-size:12pt">Every ConceptDescriptor has one or more defined entities of type ICD11_Linearization_Entity.</span></font></div>
+<div align="left"><br/></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt"><b>Note by Alan Rector: RELATIONSHIP BETWEEN LAYERS - &quot;PROJECTION&quot;</b></span></font></div>
+<div align="left"><font face="Times" size="3"><span style="font-size:12pt">The layers have different structure and different invariants. &#160;Therefore, &#160;the relationship between 
+layers will lossy. Therefore the relationship between them should be an explicit &quot;projection&quot; or 
+&quot;view mechanism&quot;, i.e. a function that carries the appropriate information from one layer to the 
+next, possibly requiring additional inputs. &#160;Ideally this should be expressed in a declarative way, 
+but for now I we can keep it simple. &#160;One of the functions of &quot;projection&quot; should be to 
+propagate (pointers to) Presentation Objects between layers where appropriate.&#160;</span></font></div>
+<div align="left"><br/>
+</div>
+<div align="left"><br/>
+</div>
+<div align="left"><br/>
+</div>
+<div align="left"></div>
+</body>
+</html>
